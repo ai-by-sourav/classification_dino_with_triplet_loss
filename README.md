@@ -7,8 +7,10 @@ A modular, production-ready PyTorch pipeline for image classification using DINO
 ## Project Overview
 
 This pipeline combines classification and embedding learning. The model learns to:
-- Classify images into predefined categories via cross-entropy loss.
-- Learn a compact embedding space where images of the same class are pulled together and different classes are pushed apart, via triplet loss.
+
+- Classify images into predefined categories via cross-entropy loss.  
+- Learn a compact embedding space where images of the same class are pulled together and different classes are pushed apart, via triplet loss.  
+- Adapt high-level semantic features to the target dataset by unfreezing the last transformer blocks of DINOv2, improving task-specific representation and overall accuracy.
 
 Triplet loss is particularly useful when the visual differences between classes are subtle, or when you later want to use the embeddings for similarity search or retrieval.
 
