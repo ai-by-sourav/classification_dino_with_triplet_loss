@@ -52,7 +52,7 @@ L = log(1 + exp(d(A, P) - d(A, N)))
 A smooth version of triplet loss. The loss never drops to exactly zero, which provides continuous gradient signal. More stable to train, recommended for noisy or imbalanced datasets.
 
 ### When to Use What
-- Use soft triplet loss when your dataset has label noise or class imbalance (recommended as default).
+- Use soft triplet loss when your dataset has label noise or class imbalance.
 - Use hard triplet loss when your dataset is clean and you want strict class separation.
 - Set both to false to train with only cross-entropy loss.
 
