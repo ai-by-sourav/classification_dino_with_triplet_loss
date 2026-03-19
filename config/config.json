@@ -1,0 +1,16 @@
+{
+    "train_dir": "dataset/train",
+    "val_dir": "dataset/val",
+    "class_names": ["female", "male"],
+    "epochs": 30,
+    "learning_rate": 1e-4,
+    "batch_size": 32,
+    "patience": 5,
+    "optimizer": "adam",
+    "result_dir": "./outputs/v3",
+    "use_hard_triplet_loss": true,
+    "use_soft_triplet_loss": false,
+    "triplet_weight": 0.5,
+    "model_name": "dinov2_vitb14",
+    "model_repo": "facebookresearch/dinov2"
+}

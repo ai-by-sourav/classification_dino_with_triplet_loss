@@ -1,0 +1,84 @@
+# =========================
+# 🔥 DATA (DO NOT PUSH)
+# =========================
+dataset/
+data/
+train/
+val/
+test/
+datasets/
+*.csv
+*.xlsx
+
+# =========================
+# 🔥 OUTPUTS / RESULTS
+# =========================
+outputs/
+results/
+logs/
+runs/
+checkpoints/
+*.log
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# 🔥 MODEL FILES
+# =========================
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# =========================
+# 🔥 CACHE / TEMP
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.cache/
+tmp/
+temp/
+
+# =========================
+# 🔥 ENV / SYSTEM FILES
+# =========================
+.env
+.env.*
+*.env
+
+# Python virtual envs
+venv/
+env/
+ENV/
+
+# =========================
+# 🔥 JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 🔥 IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 🔥 OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔥 TORCH HUB / PRETRAINED
+# =========================
+*.bin
+
+# =========================
+# 🔥 MISC
+# =========================
+*.tar
+*.zip
+*.gz
