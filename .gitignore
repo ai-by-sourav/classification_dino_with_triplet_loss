@@ -1,84 +1,71 @@
 # =========================
-# 🔥 DATA (DO NOT PUSH)
-# =========================
-dataset/
-data/
-train/
-val/
-test/
-datasets/
-*.csv
-*.xlsx
-
-# =========================
-# 🔥 OUTPUTS / RESULTS
-# =========================
-outputs/
-results/
-logs/
-runs/
-checkpoints/
-*.log
-*.png
-*.jpg
-*.jpeg
-
-# =========================
-# 🔥 MODEL FILES
-# =========================
-*.pt
-*.pth
-*.onnx
-*.ckpt
-
-# =========================
-# 🔥 CACHE / TEMP
+# Python
 # =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Dataset (DO NOT PUSH)
+# =========================
+dataset/
+data/
+datasets/
+
+# =========================
+# Model Weights (Heavy)
+# =========================
+*.pt
+*.pth
+*.onnx
+*.ckpt
+weights/
+checkpoints/
+
+# Ignore everything inside outputs
+outputs/*
+
+# Allow folders (required)
+!outputs/**/
+
+# Allow ONLY loss curve images
+!outputs/**/loss_curve.png
+
+# =========================
+# Cache / Temp
+# =========================
 .cache/
 tmp/
 temp/
 
 # =========================
-# 🔥 ENV / SYSTEM FILES
-# =========================
-.env
-.env.*
-*.env
-
-# Python virtual envs
-venv/
-env/
-ENV/
-
-# =========================
-# 🔥 JUPYTER
-# =========================
-.ipynb_checkpoints/
-
-# =========================
-# 🔥 IDE / EDITOR
-# =========================
-.vscode/
-.idea/
-
-# =========================
-# 🔥 OS FILES
+# OS Files
 # =========================
 .DS_Store
 Thumbs.db
 
 # =========================
-# 🔥 TORCH HUB / PRETRAINED
+# IDE
 # =========================
-*.bin
-
-# =========================
-# 🔥 MISC
-# =========================
-*.tar
-*.zip
-*.gz
+.vscode/
+.idea/

@@ -127,3 +127,13 @@ Install with:
 ```bash
 pip install torch torchvision pytorch_metric_learning tqdm matplotlib Pillow
 ```
+
+## Training results on cctv camera based gender classification
+- without triplet loss
+![alt text](outputs/v1/loss_curve.png)
+
+- with soft triplet loss
+![alt text](outputs/v2/loss_curve.png)
+
+- with hard triplet loss
+![alt text](outputs/v3/loss_curve.png)
